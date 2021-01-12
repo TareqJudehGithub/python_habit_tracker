@@ -1,0 +1,17 @@
+Advanced Authentications
+
+    HTTP Requests
+        - GET       =>  requests.get()
+        - POST      =>  requests.post()
+        - PUT       =>  requests.put()
+        - DELETE    =>  requests.delete()
+
+import from datetime import datetime
+
+date = datetime.now()
+date.strftime(%Y%m%d)
+.strftime() methods allows us to format date as we like.
+
+
+
+
