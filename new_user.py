@@ -9,11 +9,12 @@ class NewUser(Constants):
         super().__init__()
 
     def new_user_response(self):
-        # TODO Create a new user:
+        # TODO: Create a new user:
         response = requests.post(
             url=constants.PIXELA_ENDPOINT,
             json={
                 "token": constants.TOKEN,
+                # change username in constant.py
                 "username": constants.USERNAME,
                 "agreeTermsOfService": "yes",
                 "notMinor": "yes"

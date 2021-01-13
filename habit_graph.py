@@ -10,7 +10,7 @@ class Habits(Constants):
         self.endpoint = f"{constants.PIXELA_ENDPOINT}/{constants.USERNAME}/graphs"
 
     def habit_response(self):
-        # TODO 2. Create a graph definition habit (Coding Time):
+        # TODO: Create a graph definition habit (Coding Time):
         response = requests.post(
             headers=constants.HEADERS,
             url=self.endpoint,

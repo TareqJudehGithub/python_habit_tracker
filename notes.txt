@@ -13,5 +13,9 @@ date.strftime(%Y%m%d)
 .strftime() methods allows us to format date as we like.
 
 
+Graph link:
+https://pixe.la/v1/users/USERNAME/graphs/GRAPH_ID.html
+
+
 
 
