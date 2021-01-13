@@ -1,7 +1,9 @@
 from datetime import datetime
 import os
-username = os.environ.get("tareqmjoudeh")
-token = os.environ.get("~2AgEd^%DG!Tj")
+username = os.environ.get("USEr")
+token = os.environ.get("TOKEN")
+
+
 class Constants:
     def __init__(self):
         self.PIXELA_ENDPOINT = "https://pixe.la/v1/users"
