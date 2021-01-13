@@ -1,11 +1,12 @@
 from datetime import datetime
-
-
+import os
+username = os.environ.get("tareqmjoudeh")
+token = os.environ.get("~2AgEd^%DG!Tj")
 class Constants:
     def __init__(self):
         self.PIXELA_ENDPOINT = "https://pixe.la/v1/users"
-        self.USERNAME = "tareqmjoudeh"
-        self.TOKEN = "~2AgEd^%DG!Tj"
+        self.USERNAME = username
+        self.TOKEN = token
         self.GRAPH_ID = "graph01"
         self.HEADERS = {
             "X-USER-TOKEN": self.TOKEN
